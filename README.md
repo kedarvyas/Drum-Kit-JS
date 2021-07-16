@@ -1,1 +1,2 @@
-# Drum-Kit-JS
+# My JavaScript Drum Kit
+
