@@ -9,3 +9,11 @@ body, html {
     padding: 0;
     font-family: 'Monaco' monospace;
 }
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
