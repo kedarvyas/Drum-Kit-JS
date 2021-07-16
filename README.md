@@ -1,6 +1,6 @@
 # My JavaScript Drum Kit
 
-A mini-project where I implemented a few functions using JavaScript (alongside HTML and CSS for webpage styling) to create a simple drumkit. Please feel free to check it out below!
+A mini-project where I implemented a few functions using JavaScript (alongside HTML and CSS for webpage styling) to create a simple drumkit. Feel free to check it out below!
 
 ## Live Demo
 Preview: https://kedarvyas.github.io/Drum-Kit-JS/
