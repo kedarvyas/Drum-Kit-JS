@@ -78,6 +78,10 @@
             audio.play();
         }
 
+        const keys = Array.from(document.querySelectorAll('.key'));
+        keys.forEach(key => key.addEventListener('transitionend', revertTransition));
+        window.addEventListener('keydown', startSound);
+
     </script>
 
 
