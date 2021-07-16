@@ -10,10 +10,55 @@ body, html {
     font-family: monaco, Consolas, "Lucida Console", monospace;
 }
 
+h1 {
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+    font-weight: 900;
+    font-size: 45px;
+    color: whitesmoke;
+    border: 0.75rem solid whitesmoke;
+    border-radius: 7.5rem;
+    margin: 10rem;
+    margin-top: 100px;
+    background-color: rgba(26, 226, 210, 0.4);
+    text-align: center;
+}
+
 .keys {
     display: flex;
     flex: 1;
-    min-height: 100vh;
+    min-height: 45vh;
     align-items: center;
     justify-content: center;
+}
+
+.key {
+    border: 0.75rem solid whitesmoke;
+    border-radius: 5rem;
+    margin: 0.75rem;
+    font-size: 1.5rem;
+    padding: 2.5rem 0.75rem;
+    transition: all .08s ease;
+    width: 7.5rem;
+    text-align: center;
+    color: white;
+    background: rgba(26, 226, 210, 0.4);
+    text-shadow: 2.5 2.5 .25rem rgb(240, 240, 240);
+}
+
+.playing {
+    transform: scale(1.25);
+    border-color: #34d8d8;
+    box-shadow: 0 0 1rem #d65f49;
+}
+
+kbd {
+    display: block;
+    font-size: 2rem;
+}
+
+.sound {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    color: #ffffff;
 }
