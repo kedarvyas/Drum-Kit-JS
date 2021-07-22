@@ -62,3 +62,23 @@ kbd {
     letter-spacing: 0.25rem;
     color: #ffffff;
 }
+
+#footer {
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15px;
+    color: #000000;
+}
+
+#footlink {
+    color: #fcfcfc;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+#footlink:hover {
+    color: #57e9e9;
+    transition: all 0.2s;
+}
